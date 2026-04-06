@@ -1,13 +1,11 @@
 Installation
 ============
 
-This package is currently intended for compiled-wheel installation on supported CPython and platform targets.
-
-Install from a wheel file:
+Install from a PYPI:
 
 .. code-block:: bash
 
-   pip install asm1model-0.1.0-...whl
+   pip install asm1model
 
 Import
 ------
@@ -16,7 +14,3 @@ Import
 
    from asm1model import asm1, combiner, carboncombiner, hyddelay, settler1d
 
-Notes
------
-
-The package exposes compiled extension modules with a module-style public API.
